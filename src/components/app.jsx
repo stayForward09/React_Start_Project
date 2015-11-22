@@ -1,5 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var history = require('history').createHistory();
 
 var Router = require('react-router').Router;
 var IndexRoute = require('react-router').IndexRoute;
@@ -29,7 +30,7 @@ var App = React.createClass({
 
 
 ReactDOM.render((
-    <Router>
+    <Router history={history}>
 	    <Route path="/" component={App}>
 	        <IndexRoute component={Home} />
 	    </Route>
