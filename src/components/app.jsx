@@ -21,8 +21,8 @@ var App = React.createClass({
     render: function() {
         return (
             <div className="main">
-			        { this.props.children }
-			      </div>
+			    { this.props.children }
+		    </div>
         );
     }
 });
