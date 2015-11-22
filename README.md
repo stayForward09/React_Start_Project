@@ -1,4 +1,4 @@
-# react-frontend-template
+# React Frontend Template
 
 A simple React and Webpack based frontend template solution. Assumes use of `react-router`. Develop with `webpack-dev-server` if needed.
 
@@ -25,12 +25,16 @@ npm run dev
 Browse to [http://localhost:8080](http://localhost:8080)
 
 ### Build
+Make sure you're at the project root and run:
 ```bash
 webpack
 ```
 
+The project will be built to the `build` directory.
+
+
 ### Deploy
-If you want to serve this template, you will need to do one of two things:
+After build, just serve the contents of the `build` directory. When serving the contents, you will need to do one of two things:
 
 1. Configure your server to redirect all routes to the main `index.html` where your app is placed. Examples are provided via [react-router docs](https://github.com/rackt/react-router/blob/master/docs/guides/basics/Histories.md#createbrowserhistory).
 2. Use `hashHistory` instead of `browserHistory` with `react-router`. Change [this line in `app.jsx`](https://github.com/arjunmehta/react-frontend-template/blob/master/src/components/app.jsx#L3):
