@@ -5,6 +5,8 @@ module.exports = React.createClass({
 
     mixins: [History],
 
+    propTypes: {},
+
     getInitialState: function() {
         return {};
     },
@@ -12,7 +14,7 @@ module.exports = React.createClass({
     render: function() {
 
         return (
-            <div className="home"></div>
+            <div className="home">Hi there this is home.</div>
         );
     }
 });
