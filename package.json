@@ -1,26 +1,35 @@
 {
-    "name": "web-project-template",
-    "version": "1.0.0",
-    "description": "A template to quickstart react web projects.",
-    "main": "app.js",
-    "scripts": {
-        "test": "npm test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/arjunmehta/web-project-template.git"
-    },
-    "author": "Arjun Mehta",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/arjunmehta/web-project-template/issues"
-    },
-    "homepage": "https://github.com/arjunmehta/web-project-template#readme",
-    "devDependencies": {
-        "express": "~4.13.3",
-        "react": "~0.14.2",
-        "react-dom": "~0.14.2",
-        "react-router": "~1.0.0",
-        "webpack": "~1.12.6"
-    }
+  "name": "web-project-template",
+  "version": "1.0.0",
+  "description": "A template to quickstart react web projects.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunmehta/web-project-template.git"
+  },
+  "author": "Arjun Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjunmehta/web-project-template/issues"
+  },
+  "homepage": "https://github.com/arjunmehta/web-project-template#readme",
+  "devDependencies": {
+    "babel-core": "6.2.1",
+    "babel-loader": "6.2.0",
+    "eslint": "1.10.1",
+    "eslint-plugin-react": "3.10.0",
+    "express": "4.13.3",
+    "file-loader": "0.8.4",
+    "history": "1.13.1",
+    "react": "0.14.2",
+    "react-dom": "0.14.2",
+    "react-router": "1.0.0",
+    "webpack": "1.12.6",
+    "webpack-dev-server": "1.12.1"
+  }
 }
