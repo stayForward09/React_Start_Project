@@ -27,7 +27,7 @@ Browse to [http://localhost:8080](http://localhost:8080)
 ### Build
 Make sure you're at the project root and run:
 ```bash
-webpack
+npm run build
 ```
 
 The project will be built to the `build` directory.
