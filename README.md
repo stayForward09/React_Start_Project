@@ -51,3 +51,8 @@ Browse to [http://localhost:8080](http://localhost:8080)
 ### Linting
 - `eslint` - for linting
     - `eslint-plugin-react` - to handle linting amidst jsx
+
+
+## License
+The MIT License (MIT)<br/>
+Copyright (c) 2015 Arjun Mehta
