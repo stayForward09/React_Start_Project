@@ -7,6 +7,7 @@ var IndexRoute = require('react-router').IndexRoute;
 var Route = require('react-router').Route;
 
 var Home = require('./home.jsx');
+var Page = require('./page.jsx');
 
 
 var App = React.createClass({
@@ -34,5 +35,6 @@ ReactDOM.render((
 	    <Route path="/" component={App}>
 	        <IndexRoute component={Home} />
 	    </Route>
+	    <Route path="/page" component={Page} />
 	</Router>
 ), document.getElementById('appContainer'));
