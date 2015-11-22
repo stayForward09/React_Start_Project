@@ -1,10 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var history = require('history').createHistory();
 
 var Router = require('react-router').Router;
 var IndexRoute = require('react-router').IndexRoute;
 var Route = require('react-router').Route;
+var history = require('history').createHistory();
 
 var Home = require('./home.jsx');
 var Page = require('./page.jsx');
