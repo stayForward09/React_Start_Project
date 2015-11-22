@@ -1,4 +1,5 @@
 var path = require('path');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 
@@ -10,8 +11,8 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: './js/main.js'
-    },
+        filename: 'js/main.js'
+    },    
 
     module: {
         loaders: [{
@@ -26,5 +27,12 @@ module.exports = {
 
     resolve: {
         extensions: ['', '.js', '.jsx']
-    }
+    },
+
+    plugins: [
+        new CopyWebpackPlugin([{
+            from: 'src/static',
+            to: '/'
+        }])
+    ]
 };

@@ -1,1 +1,1 @@
-var app = require('./components/app.jsx');
+require('./components/app.jsx');
