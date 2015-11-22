@@ -14,7 +14,7 @@ module.exports = React.createClass({
     render: function() {
 
         return (
-            <div className="home">Hi there this is home.</div>
+            <div className="home">Hello World.</div>
         );
     }
 });
