@@ -26,22 +26,28 @@ Browse to [http://localhost:8080](http://localhost:8080)
 
 ## Dependencies
 
-- eslint - for linting
-- eslint-plugin-react - to handle linting amidst jsx
+### React
+- `react` - this is a React based template
+    - `react-dom` - to add the React app to the DOM
+    - `react-router` - to create routes for views
+    - `history` - dependency of react-router
 
-- react - this is a React based template
-- react-dom - to add the React app to the DOM
-- react-router - to create routes for views
-- history - dependency of react-router
+### Webpack
+- `webpack` - for building
+    - `webpack-dev-server` - for development
 
-- webpack - for building
-- webpack-dev-server - for development
+#### Loaders
+- `babel-loader` - react/jsx loader for webpack
+    - `babel-core` - dependency for babel-loader
+    - `babel-preset-react` - for loading babel-loader
+- `file-loader` - for including images etc.
+- `style-loader` - for including styles
+    - `css-loader` - for loading css
+    - `less-loader` - for loading less
 
-- babel-loader - react/jsx loader for webpack
-- babel-core - dependency for babel-loader
-- babel-preset-react - for loading babel-loader
+#### Plugins
+- `copy-webpack-plugin` - to copy static boilerplate to build.
 
-- file-loader - for including images etc.
-- style-loader - for including styles
-- css-loader - for loading css
-- less-loader - for loading less
+### Linting
+- `eslint` - for linting
+    - `eslint-plugin-react` - to handle linting amidst jsx

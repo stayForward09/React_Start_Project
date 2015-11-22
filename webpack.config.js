@@ -12,7 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'js/main.js'
-    },    
+    },
 
     module: {
         loaders: [{
@@ -34,5 +34,9 @@ module.exports = {
             from: 'src/static',
             to: '/'
         }])
-    ]
+    ],
+
+    devServer: {
+        historyApiFallback: true
+    }
 };
