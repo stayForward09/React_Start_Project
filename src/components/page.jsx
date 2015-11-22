@@ -1,5 +1,7 @@
 var React = require('react');
-var History = require('react-router').History;
+
+var Router = require('react-router');
+var History = Router.History;
 
 
 module.exports = React.createClass({

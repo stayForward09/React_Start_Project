@@ -1,7 +1,8 @@
 var React = require('react');
+
 var Router = require('react-router');
 var Link = Router.Link;
-var History = require('react-router').History;
+var History = Router.History;
 
 
 module.exports = React.createClass({
