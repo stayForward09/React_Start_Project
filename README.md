@@ -31,6 +31,7 @@ webpack
 
 ### Deploy
 If you want to serve this template, you will need to do one of two things:
+
 1. Configure your server to redirect all routes to the main `index.html` where your app is placed. Examples are provided via [react-router docs](https://github.com/rackt/react-router/blob/master/docs/guides/basics/Histories.md#createbrowserhistory).
 2. Use `hashHistory` instead of `browserHistory` with `react-router`. Change [this line in `app.jsx`](https://github.com/arjunmehta/react-frontend-template/blob/master/src/components/app.jsx#L3):
 
