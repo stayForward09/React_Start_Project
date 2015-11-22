@@ -27,21 +27,21 @@ Browse to [http://localhost:8080](http://localhost:8080)
 ## Dependencies
 
 ### React
-- `react` - this is a React based template
-    - `react-dom` - to add the React app to the DOM
-    - `react-router` - to create routes for views
-    - `history` - dependency of react-router
+- `react` - because this is a React-based template
+    - `react-dom` - for adding React app to the DOM
+    - `react-router` - for creating routes to views
+        - `history` - peer dependency of `react-router`
 
 ### Webpack
-- `webpack` - for building
+- `webpack` - for packaging
     - `webpack-dev-server` - for development
 
 #### Loaders
-- `babel-loader` - react/jsx loader for webpack
-    - `babel-core` - dependency for babel-loader
-    - `babel-preset-react` - for loading babel-loader
-- `file-loader` - for including images etc.
-- `style-loader` - for including styles
+- `babel-loader` - for loading React/jsx components
+    - `babel-core` - peer dependency for `babel-loader`
+    - `babel-preset-react` - to properly load React components
+- `file-loader` - for loading images etc.
+- `style-loader` - for loading styles
     - `css-loader` - for loading css
     - `less-loader` - for loading less
 
