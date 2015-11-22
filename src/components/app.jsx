@@ -7,14 +7,18 @@ var Route = require('react-router').Route;
 
 var Home = require('./home.jsx');
 
+
 var App = React.createClass({
+
+    propTypes: {
+        children: React.PropTypes.oneOfType([React.PropTypes.array, React.PropTypes.element])
+    },
 
     getInitialState: function() {
         return {};
     },
 
     render: function() {
-
         return (
             <div className="main">
 			        { this.props.children }
@@ -23,10 +27,11 @@ var App = React.createClass({
     }
 });
 
+
 ReactDOM.render((
     <Router>
-    <Route path="/" component={App}>
-        <IndexRoute component={Home} />
-    </Route>
-  </Router>
+	    <Route path="/" component={App}>
+	        <IndexRoute component={Home} />
+	    </Route>
+	</Router>
 ), document.getElementById('appContainer'));
