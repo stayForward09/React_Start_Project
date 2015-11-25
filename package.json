@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "(eslint ./src/**) && jest && webpack",
+    "jest": "jest",
     "build": "webpack",
     "dev": "webpack-dev-server --history-api-fallback --devtool eval --progress --colors --hot --content-base build",
     "lint": "eslint ./ -f stylish"
