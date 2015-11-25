@@ -20,20 +20,28 @@ Just edit `src/index.js` and follow the import trail.
 
 This template uses the best bits of HTML5 Boilerplate for the html statics, which pre-exist in the `static` directory. Everything in `static` will get copied over to the `build` directory before the `src/index.js` entry is packed.
 
-## Test
-```bash
-npm test
-```
-
-Tests are kept in the `tests` directory.
-
 ## Build
 ```bash
 npm run build
 ```
 
-The project will be built to the `build` directory.
+This basically just runs webpack. The project will be built to the `build` directory.
 
+## Test
+```bash
+npm test
+```
+This will run a full test including `eslint`, `jest` and `webpack`.
+
+If you just want to run the `jest` tests (kept in the `tests` directory):
+```bash
+npm run jest
+```
+
+If you just want to run to lint:
+```bash
+npm run lint
+```
 
 ## Deploy
 After build, you can just serve the contents of the `build` directory. When serving the contents, you will need to do one of two things:
