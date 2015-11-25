@@ -70,7 +70,7 @@ var history = require('history').createHashHistory();
 #### Plugins
 - `copy-webpack-plugin` - to copy static boilerplate to build
 
-#### Testing
+### Testing
 - `jest-cli` - for running tests
 
 ### Linting
