@@ -16,9 +16,10 @@ npm run dev
 
 Browse to [http://localhost:8080](http://localhost:8080)
 
-Just edit `src/index.js` and follow the import trail.
-
-This template uses the best bits of HTML5 Boilerplate for the html statics, which pre-exist in the `static` directory. Everything in `static` will get copied over to the `build` directory before the `src/index.js` entry is packed.
+Main Entry: `src/index.js`
+Router/Loader: `src/loader.jsx`
+Components: `src/components`
+Statics: `src/static`
 
 ## Build
 ```bash
