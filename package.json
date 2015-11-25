@@ -4,7 +4,7 @@
   "description": "A template to quickstart react web projects.",
   "main": "app.js",
   "scripts": {
-    "test": "(jest && (eslint ./src/**) && webpack)",
+    "test": "(eslint ./src/**) && jest && webpack",
     "build": "webpack",
     "dev": "webpack-dev-server --history-api-fallback --devtool eval --progress --colors --hot --content-base build",
     "lint": "eslint ./ -f stylish"
