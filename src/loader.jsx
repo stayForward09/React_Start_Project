@@ -6,8 +6,8 @@ var IndexRoute = require('react-router').IndexRoute;
 var Route = require('react-router').Route;
 var history = require('history').createHistory();
 
-var Home = require('./home.jsx');
-var Page = require('./page.jsx');
+var Home = require('./components/home.jsx');
+var Page = require('./components/page.jsx');
 var App = require('./components/app.jsx');
 
 ReactDOM.render((
