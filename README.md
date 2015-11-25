@@ -16,17 +16,16 @@ npm run dev
 
 Browse to [http://localhost:8080](http://localhost:8080)
 
-Main Entry: `src/index.js`
-Router/Loader: `src/loader.jsx`
-Components: `src/components`
-Statics: `src/static`
+Main Entry: `src/index.js`<br/>
+Router/Loader: `src/loader.jsx`<br/>
+Components: `src/components`<br/>
+Statics: `src/static`<br/>
 
 ## Build
 ```bash
 npm run build
 ```
 
-This basically just runs webpack. The project will be built to the `build` directory.
 
 ## Test
 ```bash
@@ -34,12 +33,12 @@ npm test
 ```
 This will run a full test including `eslint`, `jest` and `webpack`.
 
-If you just want to run the `jest` tests (kept in the `tests` directory):
+### Jest Only
 ```bash
 npm run jest
 ```
 
-If you just want to run to lint:
+### Lint Only
 ```bash
 npm run lint
 ```
