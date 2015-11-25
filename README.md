@@ -2,7 +2,15 @@
 
 [![Build Status](https://travis-ci.org/arjunmehta/react-frontend-template.svg)](https://travis-ci.org/arjunmehta/react-frontend-template)
 
-A simple React and Webpack based frontend template solution. Assumes use of `react-router`. Develop with `webpack-dev-server` if needed.
+A simple React and Webpack based frontend template solution.
+
+- Handles routes using **React Router**.
+- Easy development workflow with **Webpack Dev Server**.
+- Linting made easy with **ESLint**.
+- Solid foundation using the best bits of **HTML5 Boilerplate**.
+- ES6 support with **Babel**.
+- Continuous integration template for **Travis-CI**.
+- Easily packaged using **Webpack**. 
 
 ## Initialize
 ```bash
