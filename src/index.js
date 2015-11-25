@@ -1,1 +1,1 @@
-require('./components/app.jsx');
+require('./loader.jsx');
