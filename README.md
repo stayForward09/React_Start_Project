@@ -82,7 +82,7 @@ var history = require('history').createHashHistory();
 - `file-loader` - for loading images etc.
 - `style-loader` - for loading styles
     - `css-loader` - for loading css
-    - `less-loader` - for loading less
+    - `sass-loader` - for loading sass
 
 #### Plugins
 - `copy-webpack-plugin` - to copy static boilerplate to build
