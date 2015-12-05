@@ -1,5 +1,8 @@
 var path = require('path');
+
+var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
+
 
 module.exports = {
 
@@ -33,8 +36,15 @@ module.exports = {
         new CopyWebpackPlugin([{
             from: 'src/static',
             to: '/'
-        }])
+        }]),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        })
     ],
+
+    devtool: 'source-map',
 
     devServer: {
         historyApiFallback: true
