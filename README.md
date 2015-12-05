@@ -6,6 +6,7 @@ A simple React and Webpack based frontend template solution.
 
 - Handles routes using **React Router**.
 - Solid foundation using the best bits of **HTML5 Boilerplate**.
+- Testing with **Jest**.
 - Linting made easy with **ESLint**.
 - ES6 support with **Babel**.
 - Continuous integration with **Travis-CI**.
