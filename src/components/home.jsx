@@ -4,6 +4,7 @@ var Router = require('react-router');
 var Link = Router.Link;
 var History = Router.History;
 
+require('!style!css!sass!../stylesheets/home.scss');
 
 module.exports = React.createClass({
 

@@ -3,6 +3,7 @@ var React = require('react');
 var Router = require('react-router');
 var History = Router.History;
 
+require('!style!css!sass!../stylesheets/page.scss');
 
 module.exports = React.createClass({
 

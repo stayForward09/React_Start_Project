@@ -1,4 +1,6 @@
 @import "~normalize.css/normalize.css";
+@import "./colors.scss";
+
 
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -13,7 +15,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: $body;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -27,12 +29,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: $selection;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: $selection;
     text-shadow: none;
 }
 
@@ -44,7 +46,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid $border;
     margin: 1em 0;
     padding: 0;
 }
@@ -88,8 +90,8 @@ textarea {
 
 .browserupgrade {
     margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
+    background: $lightBackground;
+    color: $body;
     padding: 0.2em 0;
 }
 
@@ -217,7 +219,7 @@ textarea {
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: $body !important; /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
@@ -248,7 +250,7 @@ textarea {
 
     pre,
     blockquote {
-        border: 1px solid #999;
+        border: 1px solid $border;
         page-break-inside: avoid;
     }
 
