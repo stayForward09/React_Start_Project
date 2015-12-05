@@ -4,14 +4,14 @@
 
 A simple React and Webpack based frontend template solution.
 
-- Handles routes using **React Router**.
-- Solid foundation using the best bits of **HTML5 Boilerplate**.
-- Testing with **Jest**.
+- Handles routes using **[React Router](https://github.com/rackt/react-router/tree/master/docs)**.
+- Solid foundation using the best bits of **[HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/5.2.0/dist/doc/TOC.md)**.
+- Testing with **[Jest](https://facebook.github.io/jest/)**.
+- Easily packaged using **[Webpack](http://webpack.github.io/docs/)**. 
+- Seamless development workflow with **[Webpack Dev Server](https://webpack.github.io/docs/webpack-dev-server.html)**.
 - Linting made easy with **ESLint**.
 - ES6 support with **Babel**.
 - Continuous integration with **Travis-CI**.
-- Easily packaged using **Webpack**. 
-- Easy development workflow with **Webpack Dev Server**.
 
 ## Initialize
 ```bash
