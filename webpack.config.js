@@ -1,14 +1,17 @@
 var path = require('path');
 
 var webpack = require('webpack');
+
 var CopyWebpackPlugin = require('copy-webpack-plugin');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 
 module.exports = {
 
     entry: [
-        'webpack/hot/dev-server',
         'webpack-dev-server/client?http://localhost:8080',
+        'webpack/hot/dev-server',
+        path.resolve(__dirname, 'src/stylesheets/base.scss'),
         path.resolve(__dirname, 'src/index.js')
     ],
 
@@ -25,6 +28,9 @@ module.exports = {
             query: {
                 presets: ['react']
             }
+        }, {
+            test: /\.scss$/,
+            loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
         }]
     },
 
@@ -41,7 +47,8 @@ module.exports = {
             compress: {
                 warnings: false
             }
-        })
+        }),
+        new ExtractTextPlugin('css/[name].css')
     ],
 
     devtool: 'source-map',
