@@ -5,12 +5,12 @@
 A simple React and Webpack based frontend template solution.
 
 - Handles routes using **React Router**.
-- Easy development workflow with **Webpack Dev Server**.
-- Linting made easy with **ESLint**.
 - Solid foundation using the best bits of **HTML5 Boilerplate**.
+- Linting made easy with **ESLint**.
 - ES6 support with **Babel**.
-- Continuous integration template for **Travis-CI**.
+- Continuous integration with **Travis-CI**.
 - Easily packaged using **Webpack**. 
+- Easy development workflow with **Webpack Dev Server**.
 
 ## Initialize
 ```bash
