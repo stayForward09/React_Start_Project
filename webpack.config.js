@@ -30,6 +30,7 @@ module.exports = {
             }
         }, {
             test: /\.scss$/,
+            loaders: ['style', 'css', 'sass'],
             loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
         }]
     },
